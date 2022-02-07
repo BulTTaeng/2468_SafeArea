@@ -29,7 +29,7 @@ int main(){
         }
     }
 
-    for(int k = mini ; k<=maxi; k++){
+    for(int k = mini-1 ; k<=maxi; k++){
         memset(visit , false ,sizeof(visit));
         temp = 0;
 
